@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'b35c06a6-9cb1-40ee-86ba-97dd876d089e'
+  dockerRegistryServiceConnection: 'acracrtesttest-1658'
   imageRepository: 'lissffacr'
   containerRegistry: 'acracrtesttest.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/docs/integration/github-actions/Dockerfile'
